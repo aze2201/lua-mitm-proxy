@@ -50,8 +50,12 @@ make tag
 docker-compose --env-file variables.env up
 ```
 
+
 NOTE: 
 - It runs on docker which uses isolated network by default. If browser in external machine you will need `docker --net=host`.
 - If you reinstall project, certificate files will be re-newed and you will need to install again on browser.
 - For testing purpose you can update OS to resolve single domain to this host and test it. (in linux machines **/etc/hosts** )
+
+## Motivation
+You can sponsor this project to speed up development and improvements.
 
