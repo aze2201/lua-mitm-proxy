@@ -58,8 +58,10 @@ NOTE:
 
 ## Motivation
 You can sponsor this project to speed up development and improvements.
-### contacts
+### Contacts
 Name: Fariz Muradov
+
 Email: aze2201@gmail.com
+
 Country: 🇦🇿
 
