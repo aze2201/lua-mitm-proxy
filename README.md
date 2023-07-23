@@ -38,11 +38,11 @@ Stay tuned for updates and improvements as we continue to enhance the project!
 ## How to install
 
 ```
-git clone <repo>
-cd <repo>
-make build
-# you can tag image to latest
-make tag
+$ git clone git@github.com:aze2201/lua-mitm-proxy.git
+$ cd lua-mitm-proxy
+$ make build
+$ # you can tag image to latest
+$ make tag
 ```
 
 ```
