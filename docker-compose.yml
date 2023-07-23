@@ -1,0 +1,18 @@
+version: '3'
+services:
+
+  nginx:
+    container_name: lua-mitm-proxy
+    image: lua-mitm-proxy:${VERSION}
+    ports:
+      - '80:80'
+      - '443:443'
+    networks:
+      - nginx-openid_default
+    volumes:
+      - './nginx/nginx.conf:/etc/openresty/nginx.conf'
+      - './certs:/etc/openresty/certs'
+      - './rootCA:/etc/openresty/rootCA'
+networks:
+  nginx-openid_default:
+    name: nginx-openid_default
