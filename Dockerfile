@@ -24,5 +24,5 @@ RUN apt-get remove --purge build-essential git unzip -y
 WORKDIR luarocks
 RUN mkdir uninstall
 RUN make clean
-RUN mkdir /etc/openresty/certs
-RUN chmod 755 -R /etc/openresty/certs
+RUN mkdir /etc/openresty/certs /etc/openresty/rootCA
+RUN chmod 775 -R /etc/openresty/certs /etc/openresty/rootCA
