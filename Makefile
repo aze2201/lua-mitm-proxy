@@ -44,8 +44,9 @@ help:
 	@echo "Available targets:"
 	@echo "  build:     Generate certificates and build the Docker image with the specified version."
 	@echo "  tag:       Tag the built image with 'latest'."
-	@echo "  help:      Show this help message."
+	@echo "  help:      /* Build project:            make build"
+	@echo "             /* Tag as latest (optional): make tag"
+	@echo "             /* Docker network is not created by default. You can create by youself. Check compose file"
 
 # Default target
 .DEFAULT_GOAL := help
-
