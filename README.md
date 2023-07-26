@@ -8,6 +8,9 @@ Project Goals:
 - Enable the investigation of potential security threats or vulnerabilities.
 
 
+[Wiki](https://github.com/aze2201/lua-mitm-proxy/wiki/MITM-in-NGINX-LUA=OpenResty)
+
+
 ## How it works.
 MitM Proxy for HTTPS Traffic Analysis
 
