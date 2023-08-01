@@ -10,8 +10,6 @@ function on_fly (url, body, header)
                 header='xxx'
             end
             -- need to decompress if no Content-Encoding specified
-            -- if header then
-                00
             if string.find(body, "DOCTYPE") then
                 if string.find(header, "gzip") then                   
                     local stream = zlib.inflate()
