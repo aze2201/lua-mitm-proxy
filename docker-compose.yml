@@ -10,6 +10,7 @@ services:
     networks:
       - nginx-openid_default
     volumes:
+      - './nginx/mlib:/etc/nginx/mlib'
       - './nginx/nginx.conf:/etc/openresty/nginx.conf'
       - './certs:/etc/openresty/certs'
       - './rootCA:/etc/openresty/rootCA'
