@@ -4,10 +4,8 @@ function on_fly (url, body, header)
             local zlib = require "zlib"
             local brotlidec = require "brotli.decoder"
             -- if no header define something to avoid nil value
-            if header then
-                print (header)
-            else
-                header='xxx'
+            if no header then
+                 header='xxx'
             end
             -- need to decompress if no Content-Encoding specified
             if string.find(body, "DOCTYPE") then
